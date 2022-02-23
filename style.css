@@ -1,0 +1,346 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+    Global Styles
+-----------------------
+*/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    color: snow;
+}
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 2rem;
+}
+a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+/*
+    Header Styles
+-----------------------
+*/
+header {
+    background-color: rgb(102, 118, 138);
+    text-align: center;
+    max-width: 100%;
+    padding: 2rem 4rem;
+}
+header p {
+    padding: 0 2.5rem;
+    line-height: 1.4;
+    color: snow;
+}
+header span {
+    display: block;
+    font-size: 2rem;
+    margin: 6rem;
+}
+nav {
+    overflow: auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+nav > section, nav > a {
+    display: inline-block;
+}
+.navlinks a {
+    color: snow;
+    display: inline-block;
+    padding: 1rem 0;
+}
+.navlinks a:first-of-type {
+    padding-right: 4rem;
+}
+.navlinks {
+    float: left;
+}
+.lg-logo {
+    margin-left: -5rem;
+}
+.lg-logo img {
+    height: 5rem;
+    width: auto;
+}
+.donatelink {
+    float: right;
+}
+.donatelink a {
+    color: rgb(94, 118, 138);
+    background-color: snow;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+
+/*
+    Intro Block Styles
+-----------------------
+*/
+.intro-block {
+    display: block;
+    padding: 0 20rem;
+}
+.video-txt {
+    color: rgb(224, 224, 224);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.video-txt span {
+    display: inline-block;
+}
+.video-txt ion-icon {
+    display: inline-block;
+    font-size: 4rem;
+    transform: translateY(1.2rem);
+    margin-right: 1rem;
+}
+.layout-background-description {
+    color: rgb(51, 51, 51);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin: 2rem;
+}
+
+/*
+    Section1 Styles
+-----------------------
+*/
+.section1 {
+    display: block;
+    padding: 8rem 40rem;
+    text-align: center;
+}
+.section1 p {
+    line-height: 1.4;
+}
+
+
+/*
+    Section2 Styles
+-----------------------
+*/
+.section2 {
+    display: block;
+    width: 100%;
+    padding: 10rem 20rem 8rem;
+    overflow: auto;
+    background-color: rgb(210, 217, 221);
+}
+.section2 article {
+    width: 50%;
+    text-align: center;
+    display: inline;
+    padding: 0 2rem;
+}
+.section2 article:first-of-type {
+    float: left;
+}
+.section2 article:last-of-type {
+    float: right;
+}
+.img-block {
+    margin: 0 auto;
+    background-color: rgb(94, 118, 138);
+    height: 180px;
+    width: 320px;
+}
+.section2 p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+.about-link {
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 2px;
+    margin: 2rem 0;
+    padding: 1.2rem 4rem;
+}
+
+/*
+    Section3 Styles
+-----------------------
+*/
+.section3 {
+    text-align: center;
+    display: block;
+    padding: 7.5rem 35rem;
+}
+.section3 p {
+    line-height: 1.4;
+}
+
+
+/*
+    Footer Styles
+-----------------------
+*/
+footer {
+    text-align: center;
+    max-width: 100%;
+    padding: 2rem 4rem;
+    background-color: rgb(31, 33, 48);
+    color: snow;
+}
+
+/*
+    Footer Layout
+-----------------------
+*/
+.footer-section1 {
+    float: left;
+}
+.footer-section2 {
+    float: right;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.footer-section2 span {
+    display: block;
+}
+.footer-main {
+    overflow: auto;
+}
+.copyright-information {
+    display: block;
+    border-top: 1px solid snow;
+    clear: both;
+    margin-top: 1rem;
+    padding-top: 1.6rem;
+    overflow: auto;
+}
+.copyright-information p {
+    float: left;
+    font-size: 1.2rem;
+}
+.lg-logo-footer {
+    float: right;
+}
+
+/*
+    Footer Styles
+-----------------------
+*/
+.footer-section1 {
+    text-align: left;
+}
+.footer-section1 ion-icon {
+    font-size: 2rem;
+    padding: 0 1rem 1rem 0;
+}
+.footer-link-block {
+    padding-bottom: 1rem;
+}
+.footer-link-block span:first-of-type {
+    padding-right: 1rem;
+}
+.footer-link-block h5 {
+    color: rgb(89, 97, 134);
+    font-family: 'Urban', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+.footer-link-block span {
+    font-family: 'Urban', sans-serif;
+    font-size: 1rem;
+}
+.footer-section2 h5 {
+    font-family: 'Urban', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.footer-section2 h5:first-of-type {
+    padding-top: 1rem;
+}
+.footer-section2 h5:last-of-type {
+    padding-bottom: 0.5rem;
+}
+.footer-section2 span {
+    color: rgb(167, 167, 167);
+    font-family: 'Urban', sans-serif;
+    font-size: 1rem;
+    padding: 0.15rem 0;
+}
+.footer-section2 span:last-of-type {
+    color: snow;
+}
